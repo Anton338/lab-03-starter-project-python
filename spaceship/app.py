@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from starlette.responses import FileResponse
 
+# Comented by polishchuk
 from spaceship.config import Settings
 from spaceship.routers import api, health
 
